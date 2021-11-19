@@ -418,3 +418,7 @@ C:\Users\jdavi\Desktop\Udemy ASP NET CORE\ASPNETCORE-Demo\ASPNETCORE-Demo\bin\De
 C:\Users\jdavi\Desktop\Udemy ASP NET CORE\ASPNETCORE-Demo\ASPNETCORE-Demo\bin\Debug\net5.0\ZstdNet.dll
 C:\Users\jdavi\Desktop\Udemy ASP NET CORE\ASPNETCORE-Demo\ASPNETCORE-Demo\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
 C:\Users\jdavi\Desktop\Udemy ASP NET CORE\ASPNETCORE-Demo\ASPNETCORE-Demo\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jdavi\Desktop\Udemy ASP NET CORE\ASPNETCORE-Demo\ASPNETCORE-Demo\obj\Debug\net5.0\Razor\Views\Item\Index.cshtml.g.cs
+C:\Users\jdavi\Desktop\Udemy ASP NET CORE\ASPNETCORE-Demo\ASPNETCORE-Demo\obj\Debug\net5.0\Razor\Views\Item\Create.cshtml.g.cs
+C:\Users\jdavi\Desktop\Udemy ASP NET CORE\ASPNETCORE-Demo\ASPNETCORE-Demo\obj\Debug\net5.0\Razor\Views\Expense\Index.cshtml.g.cs
+C:\Users\jdavi\Desktop\Udemy ASP NET CORE\ASPNETCORE-Demo\ASPNETCORE-Demo\obj\Debug\net5.0\Razor\Views\Expense\Create.cshtml.g.cs

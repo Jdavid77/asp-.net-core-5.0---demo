@@ -15,6 +15,8 @@ namespace ASPNETCORE_Demo.Data
 
         public DbSet<Item> Items { get; set; }
 
+        public DbSet<Expenses> Expenses { get; set; }
+
 
 
     }
