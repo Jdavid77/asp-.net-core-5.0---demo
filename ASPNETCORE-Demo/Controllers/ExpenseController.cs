@@ -39,5 +39,63 @@ namespace ASPNETCORE_Demo.Controllers
             }
             return View(obj);
         }
+
+
+        
+        public IActionResult Delete(int? id)
+        {
+
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var obj = _context.Expenses.Find(id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+            return View(obj);
+
+
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePost(int? id)
+        {
+            var obj = _context.Expenses.Find(id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            
+            _context.Expenses.Remove(obj); 
+            _context.SaveChanges(); 
+            return RedirectToAction("Index");
+            
+            
+        }
+
+        public IActionResult Update(int? id)
+        {
+
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var obj = _context.Expenses.Find(id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+            return View(obj);
+
+
+        }
+
     }
 }
